@@ -2,6 +2,9 @@
 
 Eslint config providing collection of reasonable default for most projects.
 
+- TODO list of enabled plugins
+- TODO our own custom rules
+
 ## Install
 
 Npm
