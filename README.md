@@ -1,6 +1,8 @@
 # eslint-config-start
 
-Eslint config providing collection of reasonable default for most project. [TypeScript](https://www.typescriptlang.org/) and [Prettier](https://prettier.io/) support included.
+Eslint config providing collection of reasonable default for most project.
+
+[TypeScript](https://www.typescriptlang.org/) and [Prettier](https://prettier.io/) support included.
 
 ## What it contains
 
@@ -35,7 +37,7 @@ yarn add -D -E eslint-config-start
 
 ## Configure
 
-Add this to your .eslintrc file:
+Add this to your `.eslintrc` file:
 
 ```json
 {
@@ -43,7 +45,7 @@ Add this to your .eslintrc file:
     "start"
   ],
 
-  // In case you are using TypeScript, also add link to the tsconfig
+  // In case you are using TypeScript, also add link to the tsconfig in the overrides
 	"overrides": [
 		{
 			"files": ["*.ts", "*.tsx"],
@@ -54,8 +56,3 @@ Add this to your .eslintrc file:
 	]
 }
 ```
-
-## TODOs
-
-- TODO verify that errors are triggered projects that use this
-- TODO package.json description field
