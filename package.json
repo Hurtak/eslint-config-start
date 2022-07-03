@@ -1,0 +1,21 @@
+{
+  "name": "eslint-config-start",
+  "description": "",
+  "version": "1.0.0",
+  "author": {
+    "name": "Petr Hurtak",
+    "email": "petr.hurtak@gmail.com",
+    "url": "https://petrhurtak.com"
+  },
+  "repository": "github:hurtak/eslint-config-start.git",
+  "homepage": "https://github.com/Hurtak/eslint-config-start",
+  "license": "MIT",
+  "main": "index.js",
+  "dependencies": {
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "eslint-plugin-unicorn": "^43.0.0"
+  }
+}
