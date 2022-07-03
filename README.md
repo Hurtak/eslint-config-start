@@ -12,7 +12,6 @@ Eslint config providing collection of reasonable default for most project.
   - [eslint-config-standard](https://github.com/standard/eslint-config-standard)
   - [eslint-plugin-promise](https://github.com/xjamundx/eslint-plugin-promise)
 - TypeScript
-  - [@typescript-eslint/eslint-recommended](https://github.com/typescript-eslint/typescript-eslint/tree/main/packages/eslint-plugin#recommended-configs)
   - [@typescript-eslint/recommended](https://github.com/typescript-eslint/typescript-eslint/tree/main/packages/eslint-plugin#recommended-configs)
   - [@typescript-eslint/recommended-requiring-type-checking](https://github.com/typescript-eslint/typescript-eslint/tree/main/packages/eslint-plugin#recommended-configs)
 - Formatting
