@@ -13,7 +13,8 @@
     "eslint-plugin-unicorn": "^43.0.0"
   },
   "scripts": {
-    "test": "exit 0"
+    "test": "exit 0",
+    "release": "npx np"
   },
   "license": "MIT",
   "author": {
