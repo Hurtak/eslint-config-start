@@ -1,8 +1,7 @@
 {
   "name": "eslint-config-start",
   "description": "Eslint config providing collection of reasonable default for most project",
-  "version": "0.0.9",
-
+  "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.30.4",
@@ -16,7 +15,6 @@
   "scripts": {
     "test": "exit 0"
   },
-
   "license": "MIT",
   "author": {
     "name": "Petr Hurtak",
