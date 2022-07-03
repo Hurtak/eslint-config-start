@@ -27,6 +27,16 @@ Add this to your .eslintrc file:
 {
   "extends": [
     "start"
-  ]
+  ],
+
+  // In case you are using TypeScript
+	"overrides": [
+		{
+			"files": ["*.ts", "*.tsx"],
+			"parserOptions": {
+				"project": "./tsconfig.json"
+			}
+		}
+	]
 }
 ```
