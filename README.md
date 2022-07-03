@@ -29,7 +29,7 @@ Add this to your .eslintrc file:
     "start"
   ],
 
-  // In case you are using TypeScript
+  // In case you are using TypeScript, also add link to the tsconfig
 	"overrides": [
 		{
 			"files": ["*.ts", "*.tsx"],
