@@ -6,11 +6,15 @@ Eslint config providing collection of reasonable default for most projects.
 
 Npm
 
-`npm i -D eslint-config-start`
+```shell
+npm i -D -E eslint-config-start
+```
 
 Yarn
 
-`yarn add -D eslint-config-start`
+```shell
+yarn add -D -E eslint-config-start
+```
 
 ## Configure
 
