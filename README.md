@@ -39,20 +39,20 @@ yarn add -D -E eslint-config-start
 
 Add this to your `.eslintrc` file:
 
-```json
+```json5
 {
   "extends": [
     "start"
   ],
 
   // In case you are using TypeScript, also add link to the tsconfig in the overrides
-	"overrides": [
-		{
-			"files": ["*.ts", "*.tsx"],
-			"parserOptions": {
-				"project": "./tsconfig.json"
-			}
-		}
-	]
+  "overrides": [
+    {
+      "files": ["*.ts", "*.tsx"],
+      "parserOptions": {
+        "project": "./tsconfig.json"
+      }
+    }
+  ]
 }
 ```
