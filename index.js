@@ -7,6 +7,7 @@ module.exports = {
     "prettier",
   ],
   plugins: ["simple-import-sort"],
+
   rules: {
     // Enable rules from plugins
     "simple-import-sort/imports": "error",
@@ -23,7 +24,6 @@ module.exports = {
       files: ["*.ts", "*.tsx"],
       parser: "@typescript-eslint/parser",
       extends: [
-        "plugin:@typescript-eslint/eslint-recommended",
         "plugin:@typescript-eslint/recommended",
         "plugin:@typescript-eslint/recommended-requiring-type-checking",
         "prettier",
