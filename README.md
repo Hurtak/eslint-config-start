@@ -55,3 +55,7 @@ Add this to your `.eslintrc` file:
   ]
 }
 ```
+
+## `start` packages
+
+- [eslint-config-start](https://github.com/Hurtak/eslint-config-start)
