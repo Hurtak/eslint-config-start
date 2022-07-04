@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-start",
   "description": "Slightly opinionated ESLint config that should be a good start for any project",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.30.4",
     "@typescript-eslint/parser": "^5.30.4",
