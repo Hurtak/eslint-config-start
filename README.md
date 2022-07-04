@@ -1,8 +1,8 @@
 # eslint-config-start
 
-Eslint config providing collection of reasonable default for most project.
-
-[TypeScript](https://www.typescriptlang.org/) and [Prettier](https://prettier.io/) support included.
+- Slightly opinionated Eslint config that should be a good start for any project.
+- Contains universal rules that are not framework or FE/BE specific.
+- Supports [TypeScript](https://www.typescriptlang.org/) and [Prettier](https://prettier.io/).
 
 ## What it contains
 
@@ -22,16 +22,8 @@ Check the full list of rules in [index.js](./index.js)
 
 ## Install
 
-Npm
-
 ```shell
-npm i -D -E eslint-config-start
-```
-
-Yarn
-
-```shell
-yarn add -D -E eslint-config-start
+npm install --save-dev eslint-config-start
 ```
 
 ## Configure
@@ -56,6 +48,6 @@ Add this to your `.eslintrc` file:
 }
 ```
 
-## `start` packages
+## List of `start` packages
 
 - [eslint-config-start](https://github.com/Hurtak/eslint-config-start)
