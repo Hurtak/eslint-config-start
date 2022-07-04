@@ -1,8 +1,7 @@
 {
   "name": "eslint-config-start",
-  "description": "Eslint config providing collection of reasonable default for most project",
+  "description": "Slightly opinionated ESLint config that should be a good start for any project",
   "version": "1.0.0",
-  "main": "index.js",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.30.4",
     "@typescript-eslint/parser": "^5.30.4",
@@ -16,6 +15,10 @@
     "test": "exit 0",
     "release": "npx np"
   },
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "license": "MIT",
   "author": {
     "name": "Petr Hurtak",
