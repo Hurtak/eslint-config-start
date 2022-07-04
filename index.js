@@ -14,6 +14,7 @@ module.exports = {
     "simple-import-sort/exports": "error",
 
     // Disable incompatible rules
+    "unicorn/no-array-reduce": "off",
     "unicorn/prefer-module": "off", // Not all projects are module ready yet
     "unicorn/prevent-abbreviations": "off", // Does not work well with React, revisit https://github.com/sindresorhus/eslint-plugin-unicorn/issues/1639
     "no-void": "off" // Enabled by "standard", does not play well with "promise" config
