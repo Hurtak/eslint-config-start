@@ -1,6 +1,6 @@
 # eslint-config-start
 
-- Slightly opinionated Eslint config that should be a good start for any project.
+- Slightly opinionated ESLint config that should be a good start for any project.
 - Contains universal rules that are not framework or FE/BE specific.
 - Supports [TypeScript](https://www.typescriptlang.org/) and [Prettier](https://prettier.io/).
 
