@@ -30,7 +30,7 @@ module.exports = {
       ],
       rules: {
         // Our custom rules
-		"@typescript-eslint/consistent-type-definitions": ["error", "type"] // The difference between Interface and Type are very minimal, so it makes sense to settle only on one of them
+        "@typescript-eslint/consistent-type-definitions": ["error", "type"] // The difference between Interface and Type are very minimal, so it makes sense to settle only on one of them
       }
     },
   ],
