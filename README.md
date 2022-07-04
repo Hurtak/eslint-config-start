@@ -51,3 +51,4 @@ Add this to your `.eslintrc` file:
 ## List of `start` packages
 
 - [eslint-config-start](https://github.com/Hurtak/eslint-config-start)
+- [eslint-config-start-react](https://github.com/Hurtak/eslint-config-start-react)
